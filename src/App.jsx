@@ -6,16 +6,23 @@ import Footer from "./components/Footer";
 import Content2 from "./components/Content2";
 import Content3 from "./components/Content3";
 import Titulo from "./components/Titulo";
+import  { useState } from 'react';
+import AppEn from "./AppEn";
 function App() {
+  const [lenguaje, setLenguaje] = useState("ES");
   return (
     <>
-      <Navbar />
+    {lenguaje=="ES" ? (<>
+      <Navbar lenguaje={lenguaje} setLenguaje={setLenguaje}/>
       <Header />
       <Titulo/>
       <Content />
       <Content2 />
       <Content3 />
       <Footer />
+    </>):(<>
+      <AppEn/>
+    </>)}
     </>
   );
 }

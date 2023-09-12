@@ -9,7 +9,7 @@ const Content = () => {
           <div className="col-10">
             <div className="post-preview">
               <div className="row">
-                <div className="col-5 mt-4 mb-4" style={{ justifyContent: "center", textAlign: "center", alignItems: "center" }}>
+                <div className="col-5 mt-5 mb-4" style={{ justifyContent: "center", textAlign: "center", alignItems: "center", margin:"auto",display:"grid",placeItems:"center" }}>
                   <img src={img} className="img-fluid rounded" alt="" srcSet="" />
                 </div>
                 {/* <div className="col-3 mb-4" style={{ justifyContent: "center", textAlign: "center", alignItems: "center" }}>

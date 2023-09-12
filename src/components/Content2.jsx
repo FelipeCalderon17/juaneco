@@ -14,7 +14,7 @@ const Content2 = () => {
                 fermentación tradicional con microorganismos del ambiente local con manejo de tiempo y condiciones tradicionales, renovación por podas, soqueo y
                 resiembra total en espacios vacíos, aplicación de enmiendas órganicas al suelo, planes de conservación y protección de flora y fauna nativa.</p>
                 </div>
-                <div className="col-5 mt-5 mb-5" style={{ justifyContent: "center", textAlign: "center", alignItems: "center" }}>
+                <div className="col-5 mt-5 mb-5" style={{ justifyContent: "center", textAlign: "center", alignItems: "center",margin:"auto",display:"grid",placeItems:"center" }}>
                 <img src={img2} className="img-fluid rounded" alt="" srcSet="" />
                 </div>
               </div>
